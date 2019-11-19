@@ -31,10 +31,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ],
-    "homepage":"https://jinlinzhang.github.io/nba",
-    "scripts":{
+    "homepage": "https://jinlinzhang.github.io/nba",
+    "scripts": {
       "predeploy": "npm run build",
       "deploy": "gh-pages -d build"
     }
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
   }
 }
